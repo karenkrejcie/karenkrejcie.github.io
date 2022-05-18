@@ -16,29 +16,22 @@ nav {
     margin-bottom: 30px;
 }
 
-.flexThis {
-    display: flex;
-    flex-wrap: wrap;
+.gridThis {
+    display: grid;
+    grid-template-columns: 70% 30%;
     background-color: #DAE5D0;
     padding: 10px;
     border-radius: 10px;
 }
 
-.flexThis ul {
-    flex: 4;
-}
 
-.flexThis iframe {
-    flex: 1;
-}
-
-main {
-    flex: 4;
+.gridFacts {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
 aside {
-    flex: 1;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 aside img, iframe {
