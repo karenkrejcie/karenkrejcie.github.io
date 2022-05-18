@@ -1,4 +1,5 @@
-<script>
+$(function(){
+             
         // Get HTML head element
         var head = document.getElementsByTagName('head')[0];
  
@@ -13,4 +14,4 @@
  
         // Append link element to HTML head
         head.appendChild(link);
-</script>
+    });
