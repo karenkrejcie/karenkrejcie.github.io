@@ -7,40 +7,23 @@
     <title>Karen Krejcie - Continously Searching for Improvement</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="../css/master.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
     <header>
-        <h1><a class="nav-link active" aria-current="page" href="../index.html">Karen Krejcie</a></h1>
-        <h3><a class="nav-link active" aria-current="page" href="../index.html"></a>Continously Searching for Improvement</a></h3>
+        <h1><a class="nav-link active" aria-current="page" href="https://karenkrejcie.github.io/index.html">Karen Krejcie</a></h1>
+        <h3><a class="nav-link active" aria-current="page" href="https://karenkrejcie.github.io/index.html"></a>Continously Searching for Improvement</a></h3>
     </header>
     <div class="wrap">
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="projects/index.html">Projects</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Documentation
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="https://karenkrejcie.github.io/create_github.io/">Create github.io</a></li>
-                    <li><a class="dropdown-item" href="https://karenkrejcie.github.io/git_github_help/">Notes for git to github.com</a></li>
-                    </ul>
-                </li>
-                </ul>
-            </div>
-            </div>
-        </nav>
+        <div id="nav-placehold">
+        </div>
+        <script>
+            $(function(){
+              $("#nav-placehold").load("../nav.html");
+            });
+        </script>
+            <!--end of Navigation bar-->
         <main>
             <h3>Javascript Module</h3>
             <div class="cards">
