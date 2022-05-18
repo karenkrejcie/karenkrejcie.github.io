@@ -1,6 +1,21 @@
 body {
     background-color: #F9EBC8;
 }
+a:link {
+    color: #c94c4c;
+}
+
+a:visited {
+    color: #50394c;
+}
+
+a:hover {
+    color: #deeaee;
+}
+
+a:active {
+    font-size: 2em;
+}
 
 header {
     background: url(../images/logo.png) no-repeat;
