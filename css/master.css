@@ -24,6 +24,14 @@ nav {
     border-radius: 10px;
 }
 
+.flexThis ul {
+    flex: 4;
+}
+
+.flexThis iframe {
+    flex: 1;
+}
+
 main {
     flex: 4;
 }
@@ -33,10 +41,9 @@ aside {
     margin-left: 20px;
 }
 
-aside img {
+aside img, iframe {
     padding: 10px;
     background-color: #F9EBC8;
-    margin-bottom: 350px;
     border-radius: 10px;
 }
 
